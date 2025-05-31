@@ -1,69 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-/* Background Color*/
+/* General body styles */
 body {
   background-color: #f2eae2;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
 }
 
-/* Image object fit (cover entire space nicely) */
+/* Image fit */
 .object-fit-cover {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-/* Top Header */
+/* Typography */
 .top-header {
-  font-family: montserrat;
-  font-weight: medium;
+  font-weight: 500;
   letter-spacing: 0.3rem;
-  line-height: 120%;
 }
 
-/* Header */
 .header-text {
-  font-family: fraunces;
-  font-weight: bold;
-  letter-spacing: 0rem;
-  line-height: 100%;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
   font-size: 2rem;
+  line-height: 1.2;
 }
 
-/* Paragraph */
 .paragraph-text {
-  font-family: montserrat;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 0.875rem;
-  line-height: 160%;
-  letter-spacing: 0rem;
+  line-height: 1.6;
 }
 
-/* Price Tag */
 .price-tag {
   color: #3d8168;
-  font-family: fraunces;
-  font-weight: bold;
-  letter-spacing: 0rem;
-  line-height: 100%;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
   font-size: 2rem;
 }
 
-/* Crossed Price Tag */
 .cross-price {
-  font-family: montserrat;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 0.8rem;
-  line-height: 120%;
-  letter-spacing: 0rem;
 }
 
-/* Button*/
-.btn {
+/* Button */
+.btn-success {
   background-color: #3d8168;
-  font-family: montserrat;
-  font-weight: bold;
-  font-size: 0.8rem;
-  line-height: 120%;
-  padding: 0.7rem;
-  letter-spacing: 0rem;
+  border: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+}
+
+.btn-success:hover {
+  background-color: #1a4031;
 }
